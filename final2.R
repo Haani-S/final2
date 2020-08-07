@@ -1,3 +1,4 @@
+#rank hospital repo 
 rankhospital <- function(state, outcome, num = "best") {
   ## Read outcome data
   my_data=read.csv("outcome-of-care-measures.csv",na.strings='Not Available',stringsAsFactors=FALSE)
